@@ -57,6 +57,20 @@
                 .itemTitle{
                     font-size: 14px;
                 }
+                .itemResult{
+                    display: flex;
+                    align-items: center;
+                    margin-top: 10px;
+                    font-size: 14px;
+                    font-weight: bold;
+
+                    &.positive{
+                        color: #9878f1ee;
+                    }
+                    &.negative{
+                        color: #f08842;
+                    }
+                }
             }
         }
     }

@@ -20,7 +20,7 @@ export const Sidebar = () => {
         <div className="top">
             <span className="logo">Logo</span>
             </div>
-        <hr />
+        
         <div className="center">
             <p className="title">Main</p>
             <ul>
