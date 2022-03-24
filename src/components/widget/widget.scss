@@ -1,0 +1,52 @@
+.widget{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 10px;
+    box-shadow: 19px 15px 0px -9px rgba(66,66,66,0.75);
+    -webkit-box-shadow: 19px 15px 0px -9px rgba(66,66,66,0.75);
+    -moz-box-shadow: 19px 15px 0px -9px rgba(66,66,66,0.75);
+    height: 100px;
+    .left,
+    .right{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .title{
+            font-weight: bold;
+            font-size: 14px;
+        }
+        .counter{
+            font-size: 28px;
+            font-weight: 300;
+        }
+        .link{
+            font-size: 12px;
+            border-bottom: 1px solid black;
+            width: max-content;
+            cursor: pointer;
+        }
+        .percentage{
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+    
+            &.positive{
+                color: rgb(113, 91, 236);
+            }
+            &.negative{
+                color: rgb(247, 181, 94);
+            }
+        }
+        .icon{
+            
+            font-size: 18px;
+            border: 1px solid black;
+            align-self: flex-end;
+        }
+        
+    }
+    
+    
+}
