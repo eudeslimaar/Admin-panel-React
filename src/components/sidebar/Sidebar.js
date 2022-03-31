@@ -13,29 +13,35 @@ import LockOpenIcon from '@mui/icons-material/LockOpen';
 import ExitToAppOutlinedIcon from '@mui/icons-material/ExitToAppOutlined';
 import GroupOutlinedIcon from '@mui/icons-material/GroupOutlined';
 import DisplaySettingsOutlinedIcon from '@mui/icons-material/DisplaySettingsOutlined';
+import { Link } from "react-router-dom";
 
 export const Sidebar = () => {
   return (
     <div className='sidebar'>
         <div className="top">
+        <Link to="/">
             <span className="logo">Logo</span>
+        </Link>
             </div>
         
         <div className="center">
             <p className="title">Main</p>
             <ul>
-                
+                <Link to='home'>
                 <li>
                     <DashboardIcon className='icon'/>
                     <span>Dashboard</span>
                 </li>
+                </Link>
             </ul>
             <p className="title">Lists</p>
             <ul>
+                <Link to='users'>
                 <li>
                 <AccountCircleIcon className='icon'/>
                     <span>Users</span>
                 </li>
+                </Link>
             </ul>
             <ul>
                 <li>
